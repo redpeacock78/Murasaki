@@ -1,0 +1,88 @@
+* {
+  max-width: 100%;
+  margin-top: 0;
+  font-size: 18.5px;
+  line-height: 1.7em;
+  font-family: "Noto Serif JP", IPAmjm, "Noto Serif TC", HentaiKana, serif !important;
+  font-feature-settings: "palt", "trad";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "palt", "trad";
+  div.custom {
+    display: flex;
+    margin-left: 6px;
+    .pipe {
+      height: 25px;
+      border-left: 1px solid #e5e5e5;
+      margin: 8px 6px 2px 6px;
+    }
+    .text-reader {
+      height: 28px;
+      width: 28px;
+      margin: 4px 0 5px 0px;
+      padding: 4.5px 6px 5px 3.5px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      font-size: 14px;
+      background: none;
+      cursor: pointer;
+      &:hover {
+        background: #e9e9eb;
+        .solid {
+          color: rgba(0, 0, 0, 0.8);
+        }
+      }
+      .solid {
+        margin: 3px 3px 3px 3px;
+        color: #757575;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+      }
+    }
+    p {
+      padding-left: 3.5px;
+      margin: 5px 0 0 0px;
+      color: #2c3e50;
+      font-size: 16px;
+    }
+  }
+  .v-note-wrapper .v-note-panel .v-note-edit.divarea-wrapper.transition {
+    height: 790px;
+    overflow-y: scroll;
+  }
+  .v-note-panel .v-note-show {
+    display: block;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    .v-show-content.scroll-style.scroll-style-border-radius {
+      color: #2c3e50;
+      overflow-x: auto;
+      &::-webkit-scrollbar {
+        height: 8px;
+      }
+      ins {
+        text-decoration: none;
+        border-right: 1px solid;
+        padding-right: 3px;
+      }
+    }
+  }
+}
+
+@font-face {
+  font-family: HentaiKana;
+  src: url("../font/UniHentaiKana-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: IPAmjm;
+  src: url("../font/ipamjm.woff") format("woff");
+  src: url("../font/ipamjm.ttf") format("truetype");
+}
