@@ -1,8 +1,8 @@
 <template>
-  <button class="text-reader">
+  <label class="text-reader">
     <font-awesome-icon class="solid" :icon="['far', 'folder-open']" />
     <input type="file" @change="loadTextFromFile" id="reader" />
-  </button>
+  </label>
 </template>
 
 <script>
