@@ -84,6 +84,7 @@
 }
 @font-face {
   font-family: IPAmjm;
-  src: url("../font/ipamjm.woff") format("woff"),
+  src: url("../font/ipamjm.woff2") format("woff2"),
+    url("../font/ipamjm.woff") format("woff"),
     url("../font/ipamjm.ttf") format("truetype");
 }
