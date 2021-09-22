@@ -32,7 +32,15 @@ export default {
   buildModules: [
     [
       "@nuxtjs/google-fonts",
-      { families: { "Noto+Serif+JP": true, "Noto+Serif+TC": true } }
+      {
+        families: {
+          "Noto+Serif+JP": true,
+          "Noto+Serif+TC": true
+        },
+        display: "block",
+        download: true,
+        inject: true
+      }
     ],
     ["@nuxtjs/fontawesome", { component: "fontAwesome", suffix: true }]
   ],
