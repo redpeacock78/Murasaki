@@ -78,6 +78,11 @@
         border-right: 1px solid;
         padding-right: 3px;
       }
+      blockquote {
+        padding: 0 0.1em;
+        border-left: none;
+        border-top: 0.25em solid #dfe2e5;
+      }
     }
   }
 }
