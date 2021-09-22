@@ -1,8 +1,4 @@
 * {
-  max-height: 95vh;
-  max-width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
   font-size: 18.5px;
   line-height: 1.7em;
@@ -11,6 +7,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: "palt", "trad";
+  .markdown-editor {
+    height: 80vh;
+    width: 99vw;
+  }
   div.custom {
     display: flex;
     margin-left: 6px;
@@ -58,11 +58,9 @@
     }
   }
   .v-note-wrapper .v-note-panel .v-note-edit.divarea-wrapper.transition {
-    height: 90vh;
-    overflow-y: scroll;
+    height: 80vh;
   }
   .v-note-panel .v-note-show {
-    height: 90vh;
     display: block;
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
