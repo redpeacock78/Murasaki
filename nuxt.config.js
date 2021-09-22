@@ -8,7 +8,7 @@ export default {
   head: {
     title: "Murasaki",
     htmlAttrs: {
-      lang: "en"
+      lang: "ja"
     },
     meta: [
       { charset: "utf-8" },
