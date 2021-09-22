@@ -12,3 +12,16 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+* {
+  margin-top: 0;
+  font-size: 18.5px;
+  line-height: 1.7em;
+  font-family: "Noto Serif JP", IPAmjm, "Noto Serif TC", HentaiKana, serif !important;
+  font-feature-settings: "palt", "trad";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "palt", "trad";
+}
+</style>
