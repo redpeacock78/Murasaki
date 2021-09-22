@@ -74,10 +74,11 @@ export default {
   }
 };
 </script>
-<style scoped>
-.mavon-editor {
+
+<style lang="scss" scoped>
+.markdown-editor {
   margin: auto;
-  max-height: 720px;
-  width: 100%;
+  height: 80vh;
+  width: 99vw;
 }
 </style>
