@@ -66,6 +66,7 @@ div.custom {
     }
     blockquote {
       padding: 0 0.1em;
+      padding-top: 0.5em;
       border-left: none;
       border-top: 0.25em solid #dfe2e5;
     }
@@ -74,7 +75,8 @@ div.custom {
 
 @font-face {
   font-family: HentaiKana;
-  src: url("../font/UniHentaiKana-Regular.woff") format("woff");
+  src: url("../font/UniHentaiKana-Regular.woff2") format("woff2"),
+    url("../font/UniHentaiKana-Regular.woff") format("woff");
   font-display: swap;
 }
 @font-face {
