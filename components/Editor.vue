@@ -46,8 +46,7 @@ export default {
         save: true,
         subfield: true,
         preview: true
-      },
-      handbook: "#### Markdown"
+      }
     };
   },
   methods: {
