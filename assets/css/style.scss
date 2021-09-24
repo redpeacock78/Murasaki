@@ -46,15 +46,23 @@ div.custom {
 .v-note-wrapper .v-note-panel .v-note-edit.divarea-wrapper.transition {
   height: 80vh;
 }
+.v-note-navigation-wrapper {
+  max-height: 60vh;
+}
 .v-note-panel .v-note-show {
   height: 80vh;
   display: block;
-  font-size: 18.5px;
-  writing-mode: vertical-rl;
-  -webkit-writing-mode: vertical-rl;
-  -moz-writing-mode: vertical-rl;
-  -ms-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
+  .v-show-content {
+    font-size: 18.5px;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+  }
+  .v-show-content-html {
+    font-size: 14px;
+  }
   .v-show-content.scroll-style.scroll-style-border-radius {
     color: #2c3e50;
     overflow-x: auto;
