@@ -4885,10 +4885,9 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-mavon-editor@^2.9.1:
+"mavon-editor@https://github.com/redpeacock78/mavonEditor#master":
   version "2.9.1"
-  resolved "https://registry.yarnpkg.com/mavon-editor/-/mavon-editor-2.9.1.tgz#59adc7cbd1a1a71f691cf5b2a27e60ec3e6997cc"
-  integrity sha512-N42ZBBVjDOOmwwBKRLytItMGG9bR8KBZN4ZI8sxpHh3dqL6SF5HNhzn/sVHDctp9vxphO930a3zu4GFZWQwZ1Q==
+  resolved "https://github.com/redpeacock78/mavonEditor#e4e766e9c0226d4027abd34c7b5c57f708d69ce5"
   dependencies:
     highlight.js "^9.11.0"
     highlight.js-async-webpack "^1.0.4"
