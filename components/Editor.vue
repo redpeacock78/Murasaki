@@ -44,8 +44,13 @@ export default {
         undo: true,
         redo: true,
         save: true,
+        trash: true,
         subfield: true,
-        preview: true
+        preview: true,
+        htmlcode: true,
+        aligncenter: true,
+        alignright: true,
+        navigation: true
       }
     };
   },
