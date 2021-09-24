@@ -1,0 +1,7 @@
+@mixin safari {
+  @at-root _::-webkit-full-page-media,
+    _:future,
+    :root & {
+    @content;
+  }
+}
