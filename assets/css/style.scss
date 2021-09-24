@@ -47,6 +47,7 @@ div.custom {
   height: 80vh;
 }
 .v-note-panel .v-note-show {
+  height: 80vh;
   display: block;
   writing-mode: vertical-rl;
   -webkit-writing-mode: vertical-rl;
@@ -69,6 +70,14 @@ div.custom {
       padding-top: 0.5em;
       border-left: none;
       border-top: 0.25em solid #dfe2e5;
+    }
+    p {
+      text-indent: 1em;
+    }
+    ruby {
+      rt {
+        font-size: 50%;
+      }
     }
   }
 }
